@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tw.com.januarytc.viewani.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@android:drawable/ic_lock_idle_lock" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@drawable/tag_tab_hot" />
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="center"
+        android:src="@drawable/tag_tab_hot" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="center"
+        android:onClick="btnClick"
+        android:src="@android:drawable/ic_lock_idle_lock"
+        android:text="start element translation" />
+
+    <ImageView
+        android:id="@+id/img_icon_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_32"
+        android:transitionName="shared_icon_1" />
+
+    <ImageView
+        android:id="@+id/img_icon_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/icon_77" />
+</LinearLayout>
